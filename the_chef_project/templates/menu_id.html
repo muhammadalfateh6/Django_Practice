@@ -1,0 +1,7 @@
+{% if menu %}
+{% for item in menu %}
+<p><strong style="color: blue;">{{ item.name }}</strong> : <strong style="color: red;">{{ item.price }}</strong></p>
+{% endfor %}
+{% else %}
+Menu is empty
+{% endif %}

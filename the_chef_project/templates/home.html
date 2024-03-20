@@ -1,0 +1,9 @@
+<h2> Insert Data </h2>
+
+<form action = "" method = "post" style="background-color: rgb(120, 167, 167);">
+    {% csrf_token %}
+    {{form.as_p}}
+
+    <input type = "submit" value="Submit">
+
+</form>
